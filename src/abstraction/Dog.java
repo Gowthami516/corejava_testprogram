@@ -15,6 +15,10 @@ public class Dog implements Animal{
 	public void walk() {
 		System.out.println("Dog can walk and run like anything !!");
 	}
+	@Override
+	public void sleep() {
+		System.out.println("Dog mostly sleep in the morning !!");
+	}
 	
 	
 }

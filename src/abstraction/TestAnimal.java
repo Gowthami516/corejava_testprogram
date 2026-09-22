@@ -3,7 +3,7 @@ package abstraction;
 public class TestAnimal {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to nimal Park !!");
+		System.out.println("Welcome to animal Park !!");
 		
 		//Cannot instantiate the type Animal
 		//Animal a = new Animal();
@@ -17,6 +17,8 @@ public class TestAnimal {
 		d.eat();
 		d.walk();
 		d.run();
+		d.sleep();
+		Animal.breath();
 		System.out.println("*******************");
 		
 		System.out.println("*********Cat Info*********");
@@ -25,6 +27,8 @@ public class TestAnimal {
 		c.eat();
 		c.walk();
 		c.run();
+		c.sleep();
+		Animal.breath();
 		System.out.println("*******************");
 		
 		System.out.println("*********Cat Info*********");
@@ -33,6 +37,7 @@ public class TestAnimal {
 		m.eat();
 		m.walk();
 		m.run();
+		Animal.breath();
 		System.out.println("*******************");
 	}
 

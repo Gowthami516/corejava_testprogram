@@ -14,7 +14,8 @@ public class Monkey implements Animal {
 		System.out.println("Monkey  can eat Banana !!");
 		
 	}
-
+	
+	
 	@Override
 	public void walk() {
 		System.out.println("Monkey can walk and also Jumps !!");
